@@ -1,0 +1,26 @@
+p{
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  font-family: 'Righteous', cursive;
+}
+
+
+.traffic{
+  width: 600px;
+  height: 500px;
+  padding-right: 50px;
+  padding-left: 50px
+
+}
+
+.waze{
+  width: 600px;
+  height: 500px;
+}
+
+body{
+  background-image: url("https://wallpapersite.com/images/wallpapers/night-traffic-2560x1440-lights-hd-8899.jpg");
+  background-repeat: no-repeat;
+  background-size: 1920px 1080px	;
+}

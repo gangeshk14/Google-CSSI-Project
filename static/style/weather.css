@@ -1,0 +1,86 @@
+h1 {
+  text-align: center;
+  font-family: 'Mali', cursive;
+  font-size: 45px;
+
+  color: white;
+
+}
+body {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2c71f31c-d62e-4c14-b189-42d2fa1e0046/dai2dfu-a92854d5-e26d-4ce8-ab96-c2e6dd7eeb58.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJjNzFmMzFjLWQ2MmUtNGMxNC1iMTg5LTQyZDJmYTFlMDA0NlwvZGFpMmRmdS1hOTI4NTRkNS1lMjZkLTRjZTgtYWI5Ni1jMmU2ZGQ3ZWViNTguZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.DgUA2Oc9sSuR4AzQaYB-VpHNz3mP0aqU3Y33_v0roBI);
+  background-size: 1500px 850px;
+}
+.uwu {
+  padding-right: 310px;
+  color: white;
+}
+ {
+  color: white;
+}
+* {
+box-sizing: border-box;
+text-align: center;
+}
+body {
+font: 16px Arial;
+}
+/*the container must be positioned relative:*/
+.autocomplete {
+position: relative;
+display: inline-block;
+}
+input {
+border-radius: 25px;
+background-color: #f1f1f1;
+padding: 15px;
+font-size: 20px;
+
+}
+input[type=time] {
+}
+input[type=text] {
+background-color: #f1f1f1;
+width: 100%;
+font-size: 20px;
+}
+input[type=submit] {
+background-color: #FFD500;
+color: #fff;
+cursor: pointer;
+font-family: 'Mali', cursive;
+font-size: 20px;
+
+}
+.ww {
+  color: white;
+  font-size: 20px;
+  font-family: 'Mali', cursive;
+  text-shadow: 1px 1px #000000;
+
+}
+.autocomplete-items {
+position: absolute;
+border: 1px solid #d4d4d4;
+border-bottom: none;
+border-top: none;
+z-index: 99;
+/*position the autocomplete items to be the same width as the container:*/
+top: 100%;
+left: 0;
+right: 0;
+}
+.autocomplete-items div {
+padding: 10px;
+cursor: pointer;
+background-color: #fff;
+border-bottom: 1px solid #d4d4d4;
+}
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+background-color: #e9e9e9;
+}
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+background-color: DodgerBlue !important;
+color: #ffffff;
+}

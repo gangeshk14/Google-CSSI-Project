@@ -1,0 +1,35 @@
+b {
+  text-shadow: 5px 5px red;
+}
+
+
+a{
+  text-shadow: 3px 3px 3px black;
+}
+
+.w3-display-bottomleft{
+  font-size: 30px;
+  color: white;
+  text-shadow: 3px 3px 3px red;
+}
+
+.btn {
+  border: none;
+  background-color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+}
+#button{
+  text-align: center;
+  border-radius: 50%;
+}
+/* On mouse-over */
+.btn:hover {background: black;}
+.redirect {color: red;}
+
+p{
+  text-shadow: 3px 3px 3px black;
+}

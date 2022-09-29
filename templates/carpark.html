@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Carpark Availability</title>
+      <link rel= "stylesheet" type="text/css" href="{{ url_for('static', filename='style/car.css') }}">
+      <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+
+
+  </head>
+  <body>
+    <h1>Welcome to CarParks!</h1>
+    <form id="carpark-form" method="POST" action = "/car">
+    <!-- <form id="weather-form" method="post" onSubmit="return onSubmit()"> -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <div class="autocomplete" style="width:300px;">
+        <input id="carparkName" type="text" name="carpark" value="{{parkName}}" placeholder="Carpark Name" autocomplete="off">
+
+      </div>
+  <input class="goo" type="submit" value="Go!">
+</form>
+<br>
+<br>
+<br>
+<div class="lol">
+  {{content}} <span id="lot"><b>{{lots}}<b></span>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="{{ url_for('static', filename='js/carparks.js') }}" type="text/javascript" ></script>
+<script src="{{ url_for('static', filename='js/car.js') }}" type="text/javascript" ></script>
+</body>
+</html>
