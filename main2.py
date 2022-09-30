@@ -75,7 +75,7 @@ def WeatherHandler():
 @app.route('/bus', methods=['GET', 'POST'])
 def BusTimingsHandler():
     if request.method == 'GET':
-          headers = { 'AccountKey' : 'PZ7R2qzGS9KP2AhLyq5Bkw==',
+          headers = { 'AccountKey' : 'Your Key', #Input your API Key
           'accept' : 'application/json'} #this is by default
 
           #API parameters
@@ -103,7 +103,7 @@ def BusTimingsHandler():
           stopName = request.form.get("stopid")
           stopId = data[stopName]
           #Authentication parameters
-          headers = { 'AccountKey' : 'PZ7R2qzGS9KP2AhLyq5Bkw==',
+          headers = { 'AccountKey' : 'Your API Key', #Input your unique API Key
           'accept' : 'application/json'} #this is by default
 
           #API parameters
@@ -177,7 +177,7 @@ def BusTimingsHandler():
 
 @app.route('/incident', methods=['GET', 'POST'])
 def TrafficIncidents():
-    headers = { 'AccountKey' : 'PZ7R2qzGS9KP2AhLyq5Bkw==',
+    headers = { 'AccountKey' : 'Your API Key', #Input Your API Key
     'accept' : 'application/json'} #this is by default
 
     #API parameters
@@ -218,7 +218,7 @@ def CarParkHandler():
         parkName = request.form.get("carpark")
         parkName_new = data[parkName]
         #Authentication parameters
-        headers = { 'AccountKey' : 'PZ7R2qzGS9KP2AhLyq5Bkw==',
+        headers = { 'AccountKey' : 'Your API Key', #Input your API Key
         'accept' : 'application/json'} #this is by default
 
         #API parameters
