@@ -7,6 +7,7 @@ Calls are made using urlfetch
 Templates folder contains HTML codes of each section of the site. Static contains CSS and JS files. Autocomplete function is also present in Javascript files. 
 
 <br>
-<b>To Run<b>
+<b>To Run</b>
+<br>
 Make sure all libraries have been downloaded using PIP. Open terminal and simply enter '''python3 main2.py'''
 
