@@ -4,7 +4,7 @@ This project is a lifestyle webapp comprising of various day to day information 
 <br>
 Calls are made using urlfetch
 <br>
-Templates folder contains HTML codes of each section of the site. Static contains CSS and JS files. Autocomplete function is also present in Javascript files
+Templates folder contains HTML codes of each section of the site. Static contains CSS and JS files. Autocomplete function is also present in Javascript files. 
 
 <br>
 <b>To Run<b>
