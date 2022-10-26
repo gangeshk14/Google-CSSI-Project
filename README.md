@@ -11,6 +11,7 @@ Templates folder contains HTML codes of each section of the site. Static contain
 <br>
 Make sure all libraries have been downloaded using PIP. Open terminal and simply enter:
 ```
-python3 main2.py
+cd /path/to/current/directory
+composer install
 ```
 
